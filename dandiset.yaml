@@ -34,8 +34,8 @@ assetsSummary:
   - ElectricalSeries
   - ElectrodeGroup
 citation: Gonzalez-Cabrera, Cristian (2026) Electrophysiology and fiber photometry
-  of VTA-pontine circuits during backward locomotion (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001955/draft
+  of VTA-pontine circuits during backward locomotion (Version 0.260828.0749) [Data
+  set]. DANDI Archive. https://doi.org/10.48324/dandi.001955/0.260828.0749
 contributor:
 - affiliation: []
   email: cristian.gonzalez.ca@gmail.com
@@ -51,13 +51,15 @@ contributor:
   schemaKey: Organization
   url: https://parkinsonsroadmap.org/
 dateCreated: '2026-08-27T06:47:46.975623+00:00'
+datePublished: '2026-08-28T07:49:06.552101+00:00'
 description: Electrophysiology and fiber photometry datasets investigating ventral
   tegmental area (VTA) projections to pontine regions involved in locomotor control.
   The dataset includes extracellular electrophysiology, optogenetic stimulation, and
   fiber photometry recordings acquired in mice during experiments examining backward
   locomotion and VTA-pontine circuit function.
+doi: 10.48324/dandi.001955/0.260828.0749
 ethicsApproval: []
-id: DANDI:001955/draft
+id: DANDI:001955/0.260828.0749
 identifier: DANDI:001955
 keywords:
 - ventral tegmental area
@@ -68,11 +70,23 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001955/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001955/0.260828.0749/assets.yaml
 name: Electrophysiology and fiber photometry of VTA-pontine circuits during backward
   locomotion
 protocol:
 - https://doi.org/10.17504/protocols.io.bp2l6epmrgqe.v1
+publishedBy:
+  endDate: '2026-08-28T07:49:06.552101+00:00'
+  id: urn:uuid:a2b3c82e-4ded-4652-a23b-b5f08e2d2f11
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-28T07:49:06.552101+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:fa7c19b3-3fca-4b90-a188-397e602c8af6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.5281/zenodo.21390830
   name: Source data and Key Resource Table
@@ -103,11 +117,14 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/CGonzC/VTAPnO_Locomotion_Analysis
+releaseNotes: Initial public release of electrophysiology and fiber photometry datasets
+  supporting the study, including acute and chronic extracellular recordings and photometry
+  data.
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 studyTarget:
 - Locomotion control
-url: https://dandiarchive.org/dandiset/001955/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001955/0.260828.0749
+version: 0.260828.0749
 wasGeneratedBy: []
