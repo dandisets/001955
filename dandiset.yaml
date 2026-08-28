@@ -3,9 +3,12 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: This work was supported by Aligning Science Across Parkinson's (ASAP),
+  award 20505.
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -41,22 +44,70 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: '20505'
+  name: Aligning Science Across Parkinson's
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://parkinsonsroadmap.org/
 dateCreated: '2026-08-27T06:47:46.975623+00:00'
 description: Electrophysiology and fiber photometry datasets investigating ventral
   tegmental area (VTA) projections to pontine regions involved in locomotor control.
   The dataset includes extracellular electrophysiology, optogenetic stimulation, and
   fiber photometry recordings acquired in mice during experiments examining backward
   locomotion and VTA-pontine circuit function.
+ethicsApproval: []
 id: DANDI:001955/draft
 identifier: DANDI:001955
+keywords:
+- ventral tegmental area
+- pons
+- oral pontine reticular nucleus
+- backward locomotion
+- 'GABAergic '
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001955/versions/draft/assets/
 name: Electrophysiology and fiber photometry of VTA-pontine circuits during backward
   locomotion
+protocol:
+- https://doi.org/10.17504/protocols.io.bp2l6epmrgqe.v1
+relatedResource:
+- identifier: doi:10.5281/zenodo.21390830
+  name: Source data and Key Resource Table
+  relation: dcite:IsCitedBy
+  repository: Zenodo
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://doi.org/10.5281/zenodo.21390830
+- identifier: doi:10.64898/2026.02.17.706301
+  name: A VTA-pontine GABA pathway biases locomotor direction via local and distal
+    inhibition
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://doi.org/10.64898/2026.02.17.706301
+- identifier: doi:10.17504/protocols.io.bp2l6epmrgqe.v1
+  name: VTA-PnO article protocols
+  relation: dcite:IsSupplementedBy
+  repository: Protocols.io
+  resourceType: dcite:Workflow
+  schemaKey: Resource
+  url: https://doi.org/10.17504/protocols.io.bp2l6epmrgqe.v1
+- identifier: https://github.com/CGonzC/VTAPnO_Locomotion_Analysis
+  name: VTAPnO Locomotion Analysis
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/CGonzC/VTAPnO_Locomotion_Analysis
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- Locomotion control
 url: https://dandiarchive.org/dandiset/001955/draft
 version: draft
+wasGeneratedBy: []
